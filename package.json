@@ -10,11 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "get-ssl-certificate": "^2.2.1",
-    "express": "3.0.0rc4",
-    "jade": "*"
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    "express": "3.0.0rc4"
   }
 }
