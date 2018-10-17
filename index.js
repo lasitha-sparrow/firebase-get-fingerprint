@@ -10,7 +10,7 @@ app.get('/getkey', function (req, res) {
       var frg = certificate.fingerprint;
       frg = frg.replace(/:/g,' ');
       console.log(frg)
-      res.send(JSON.stringify({ fingerprint: frg }));
+      res.send(frg);
     });
 });
 app.get('/', function(req, res) {
